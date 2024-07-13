@@ -1124,14 +1124,14 @@ export default class SecurityTab extends PureComponent {
           : null}
 
         {warning && <div className="settings-tab__error">{warning}</div>}
-        <span className="settings-page__security-tab-sub-header__bold">
+        {/* <span className="settings-page__security-tab-sub-header__bold">
           {this.context.t('security')}
         </span>
         {this.renderSeedWords()}
         {this.renderSecurityAlertsToggle()}
         <span className="settings-page__security-tab-sub-header__bold">
           {this.context.t('privacy')}
-        </span>
+        </span> */}
 
         <div className="settings-page__content-padded">
           <ProfileSyncToggle />
